@@ -37,7 +37,7 @@ pub enum Event {
     Axis(u8, i16),
 }
 
-#[cfg(target_os = "linux")] mod native {
+// #[cfg(target_os = "linux")] mod native {
     use core::mem;
     use libc::{ O_NONBLOCK, O_RDONLY };
     use null_terminated::Nul;
@@ -92,4 +92,4 @@ pub enum Event {
             }
         }
     }
-}
+// }
