@@ -20,7 +20,7 @@
 //! # }
 //! ```
 
-#![no_std]
+// #![no_std]
 
 extern crate libc;
 extern crate null_terminated;
